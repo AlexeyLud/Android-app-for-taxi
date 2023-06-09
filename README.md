@@ -30,11 +30,11 @@ Database structure:
 
 # TaxiLink
 <p>
-    <img src="screens/client1.png" alt="Скриншот клиент 1" width="160" height="340" hspace="10" vspace="10">
-    <img src="screens/client2.png" alt="Скриншот клиент 2" width="160" height="340" hspace="10" vspace="10">
-    <img src="screens/client3.png" alt="Скриншот клиент 3" width="160" height="340" hspace="10" vspace="10">
-    <img src="screens/client4.png" alt="Скриншот клиент 4" width="160" height="340" hspace="10" vspace="10">
-    <img src="screens/client5.png" alt="Скриншот клиент 5" width="160" height="340" hspace="10" vspace="10">
+    <img src="screens/client1.png" alt="Скриншот клиент 1" width="160" height="340" hspace="10" vspace="20">
+    <img src="screens/client2.png" alt="Скриншот клиент 2" width="160" height="340" hspace="10" vspace="20">
+    <img src="screens/client3.png" alt="Скриншот клиент 3" width="160" height="340" hspace="10" vspace="20">
+    <img src="screens/client4.png" alt="Скриншот клиент 4" width="160" height="340" hspace="10" vspace="20">
+    <img src="screens/client5.png" alt="Скриншот клиент 5" width="160" height="340" hspace="10" vspace="20">
 </p>
 
 <br>
