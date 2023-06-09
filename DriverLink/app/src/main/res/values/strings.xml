@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DriverLink</string>
+    <string name="welcome">Добро пожаловать в DriverLink</string>
+    <string name="into">Войти</string>
+    <string name="input_login">Введите логин</string>
+    <string name="input_pass">Введите пароль</string>
+    <string name="info">Информируем вас</string>
+    <string name="hello">Здравствуйте</string>
+    <string name="your_route">Ваш маршрут:</string>
+    <string name="number">Номер маршрута:</string>
+    <string name="bus">Ваша машина:</string>
+    <string name="start">Стартуем</string>
+    <string name="exit">Выход</string>
+    <string name="back">Назад</string>
+    <string name="your_trip">Ваша поездка</string>
+    <string name="counte">Вместимость вашей машины:</string>
+    <string name="stops">Остановки</string>
+    <string name="zanyato">Занято:</string>
+    <string name="svobodno">Свободно:</string>
+    <string name="end_trip">Завершить поездку</string>
+    <string name="send">Отправить</string>
+    <string name="stop">Остановка:</string>
+    <string name="kol_voshlo">+</string>
+    <string name="kol_vyshlo">-</string>
+    <string name="change_coun">Регулирование вместительности маршрутки</string>
+    <string name="good_mess">Спасибо за сегодняшнюю работу. Хорошего вам дня😊</string>
+    <string name="out_of_app">Выйти из системы</string>
+</resources>

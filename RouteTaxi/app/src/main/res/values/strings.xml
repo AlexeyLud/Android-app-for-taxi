@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TaxiLink</string>
+    <string name="welcome">Добро пожаловать в TaxiLink</string>
+    <string name="routes">Просмотреть маршруты</string>
+    <string name="order_taxi">Заказать маршрутку</string>
+    <string name="exit">Выход</string>
+    <string name="back">Назад</string>
+    <string name="list_routes">Список Маршруток</string>
+    <string name="list_stops">Список Остановок</string>
+    <string name="qr_text">По QR-коду</string>
+    <string name="number_text">По номеру маршрута</string>
+    <string name="message_select">Выберите способ заказа маршрутки</string>
+    <string name="create_order">Создание поездки</string>
+    <string name="select_stops">Выберите начальную и конечную остановки</string>
+    <string name="find_routes">Найти маршруты по вашим остановкам</string>
+    <string name="select_start_stop">Ваша начальная остановка:</string>
+    <string name="select_end_stop">Ваша конечная остановка</string>
+    <string name="make_order">Заказать поездку</string>
+    <string name="select_route">Выберите маршрут для заказа</string>
+    <string name="closed_trip">Закончить поездку</string>
+    <string name="trip">Поездка</string>
+    <string name="message_stops">Если вы нажмёте на одну из них, вы получите список остановок по этому маршруту</string>
+</resources>

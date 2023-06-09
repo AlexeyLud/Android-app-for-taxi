@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="460dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/driver_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_panel"
+        android:layout_width="396dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="264dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/galochka2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/green_galochka"
+        app:layout_constraintBottom_toTopOf="@+id/in"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/galochka1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="27dp"
+        android:src="@drawable/green_galochka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_panel" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/input_login"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_panel" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="39dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/input_pass"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintBottom_toTopOf="@+id/in"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/in"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/salat"
+        android:text="@string/into"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintBottom_toTopOf="@+id/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="696dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/black"
+        android:contentDescription="@string/exit"
+        android:src="@drawable/exit_driver2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

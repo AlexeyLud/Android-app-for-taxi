@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SelectStopsActivity">
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/stop_ic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mess_route"
+        android:layout_width="297dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:text="@string/select_stops"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:fontFamily="@font/myfont2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="402dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="132dp"
+        android:background="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/start_ost"
+        android:layout_width="396dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="192dp"
+        android:text="@string/select_start_stop"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/stop1"
+        android:layout_width="332dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:background="@color/white"
+        android:contentDescription="Start"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_ost" />
+
+    <TextView
+        android:id="@+id/end_ost"
+        android:layout_width="396dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="360dp"
+        android:text="@string/select_end_stop"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/stop2"
+        android:layout_width="332dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="31dp"
+        android:background="@color/white"
+        android:contentDescription="End"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/end_ost" />
+
+    <Button
+        android:id="@+id/see_routes"
+        android:layout_width="332dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="37dp"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/find_routes"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:fontFamily="@font/myfont1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stop2" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="696dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/black"
+        android:contentDescription="@string/back"
+        android:src="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
