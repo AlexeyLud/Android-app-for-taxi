@@ -6,7 +6,7 @@ and an application for drivers(DriverLink[DriverLink]).
 # Server
 The server is written in Java11+Spring+Hibernate+
 MySQL+Maven+Google Cloud(App Engine + Cloud SQL).
-Server features:
+\nServer features:
 1. Getting all routes;
 2. Obtaining data about the car and driver by route number;
 3. Getting all routes on the stops that are contained on this route;
